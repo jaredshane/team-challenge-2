@@ -38,5 +38,4 @@ div3.addEventListener('click', function () {
 btn.addEventListener('click', function () {
 	var userInput = document.getElementById('userInput').value
 	console.log(userInput)
-	btn.preventDefault()
 })
