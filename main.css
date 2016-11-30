@@ -1,0 +1,25 @@
+#div1 {
+	background-color: green;
+	width: 25%;
+	height: 500px;
+	display: inline-block;
+	margin-left: 3.3%;
+}
+
+#div2 {
+	background-color: tomato;
+	width: 25%;
+	height: 500px;
+	display: inline-block;
+}
+
+#div3 {
+	background-color: goldenrod;
+	width: 25%;
+	height: 500px;
+	display: inline-block;
+}
+
+#form {
+	
+}
