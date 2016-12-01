@@ -12,7 +12,10 @@ function removeBorder(div) {
 	div.className = "";
 }
 
-
+function btnEvent() {
+  var userInput = document.getElementById('userInput').value;
+  console.log(userInput);
+}
 
 div1.addEventListener('click', function () {
 	addBorder(div1);
