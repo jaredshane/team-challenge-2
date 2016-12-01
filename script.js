@@ -14,6 +14,7 @@ function removeBorder(div) {
 
 function btnEvent() {
   var userInput = document.getElementById('userInput').value;
+  document.getElementById('userInput').value = "";
   console.log(userInput);
 }
 
