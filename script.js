@@ -16,6 +16,13 @@ function btnEvent() {
   var userInput = document.getElementById('userInput').value;
   document.getElementById('userInput').value = "";
   console.log(userInput);
+  if (div1.classList.contains("border")) {
+    div1.style.backgroundColor = userInput;
+  } else if (div2.classList.contains("border")) {
+      div2.style.backgroundColor = userInput;
+    } else {
+        div3.style.backgroundColor = userInput;
+      }
 }
 
 div1.addEventListener('click', function () {
@@ -37,9 +44,4 @@ div3.addEventListener('click', function () {
 	removeBorder(div2);
 	removeBorder(div1);
 	document.getElementById('form').style.visibility = "visible";
-});
-
-btn.addEventListener('click', function() {
-  var userInput = document.getElementById('userInput').value;
-  console.log(userInput);
 });
